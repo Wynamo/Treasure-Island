@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2848148201130687906
+--- !u!1 &3302035936918191064
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3496274076981882064}
-  - component: {fileID: 3008676305252777311}
-  - component: {fileID: 2932900047564351271}
+  - component: {fileID: 8295265722469912915}
+  - component: {fileID: 4984919614417814908}
+  - component: {fileID: 7312027553941806628}
   m_Layer: 0
-  m_Name: Wind
+  m_Name: Wind_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3496274076981882064
+--- !u!4 &8295265722469912915
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2848148201130687906}
+  m_GameObject: {fileID: 3302035936918191064}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 131.6, y: 21.79, z: 457.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.79335415, z: -0, w: 0.6087605}
+  m_LocalPosition: {x: 157.03, y: 25.95, z: 472.6}
+  m_LocalScale: {x: 3.6163, y: 3.6163, z: 3.6163}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 180}
---- !u!198 &3008676305252777311
+  m_LocalEulerAnglesHint: {x: -180, y: -75, z: 180}
+--- !u!198 &4984919614417814908
 ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2848148201130687906}
+  m_GameObject: {fileID: 3302035936918191064}
   serializedVersion: 8
   lengthInSec: 5
   simulationSpeed: 1
@@ -1517,34 +1517,7 @@ ParticleSystem:
           tangentMode: 34
           weightedMode: 0
           inWeight: 0
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.099999994
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.85990536
-        - serializedVersion: 3
-          time: 0.19999999
-          value: -1
-          inSlope: -0.12146471
-          outSlope: -0.12146471
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 1
-        - serializedVersion: 3
-          time: 0.29999998
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 1
-          outWeight: 0.33333334
+          outWeight: 0
         - serializedVersion: 3
           time: 1
           value: 1
@@ -1552,7 +1525,7 @@ ParticleSystem:
           outSlope: 0
           tangentMode: 34
           weightedMode: 0
-          inWeight: 0.33333334
+          inWeight: 0
           outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -1617,8 +1590,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.14999999
-          value: 1
+          time: 0.14
+          value: 0.2793522
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -1626,8 +1599,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.25
-          value: -1
+          time: 0.21009827
+          value: -0.21456909
           inSlope: -0.006146078
           outSlope: -0.006146078
           tangentMode: 0
@@ -4909,14 +4882,14 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &2932900047564351271
+--- !u!199 &7312027553941806628
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2848148201130687906}
+  m_GameObject: {fileID: 3302035936918191064}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
